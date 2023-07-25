@@ -1,0 +1,125 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color : white;
+    font-weight: bold;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.navigation li {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.nav-button{
+    background-color: black;
+    font-size: larger;
+    border:none;    
+}
+
+.nav-button:hover{
+    background-color: #d7df59;
+    color: black;
+}
+
+@media screen and ( min-width: 768px ) {
+  .navigation {
+    	font-size: 20px;
+  }
+}
+
+.hero-banner {
+    text-align: center;
+	padding: 20px 25px;
+}
+
+#join-now-button{
+    background-color: #8e1631;
+    font-size: larger;
+    padding: 10px;
+}
+
+#join-now-button:hover{
+    background-color: #d7df59;
+    font-size: larger;
+    color:black
+}
+
+#schedule-button{
+    background-color: white;
+    font-size: larger;
+    color:black;
+    padding: 10px;
+    margin: 20px;
+}
+
+#schedule-button:hover{
+    background-color: #d7df59;
+    font-size: larger;
+    color:black;
+    padding: 10px;
+}
+
+.card {
+	background: black;
+	padding: 15px 25px;
+	margin-top: 15px;
+}
+
+.global-footer {
+	background: #cdcdcd;
+	padding: 15px 25px;
+	margin-top: 15px;
+}
+
+.trivia-cards {
+	display: flex;
+	justify-content: space-between;
+  max-width: 100%;
+}
+
+.trivia-card {
+	padding: 15px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+td{
+    width: 500px;
+    border: none;   
+}
+
+th{
+    text-align: left;
+}
+
+tr:nth-child(even) td{
+    background-color: black;
+    border: none;
+ }
+
+tr:nth-child(odd) td{
+    background-color: gray;
+    border: none;
+ }
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.global-footer{
+    background-color: black;
+    text-align: center;
+}
